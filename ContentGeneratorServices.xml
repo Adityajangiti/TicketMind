@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContentGeneratorServices</name>
+    </assembly>
+    <members>
+        <member name="T:ContentGeneratorServices.Controllers.ChainConfigController">
+            <summary>
+            ChainConfigController
+            </summary>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.#ctor(ChainConfigDataAccess.Models.IChainConfigRepository)">
+            <summary>
+            
+            </summary>
+            <param name="chainConfigRepository"></param>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.GetChainInfo(System.Int32)">
+            <summary>
+            Get Chains info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.GetAllChains">
+            <summary>
+            Get All Chains info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.AddChain(ChainConfigDataAccess.Models.ChainConfig)">
+            <summary>
+            Add Chain Info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.UpdateChain(ChainConfigDataAccess.Models.ChainConfig)">
+            <summary>
+            Update Chain Config
+            </summary>
+            <param name="chainConf"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.DeleteChain(System.Int32)">
+            <summary>
+            Delete the Chain Info
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Controllers.ChainConfigController.Index">
+            <summary>
+            Index method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository.GetChainInfo(System.Int32)">
+            <summary>
+            Get chain info for given ID. 
+            </summary>
+            <param name="chainId">Chain ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository.AddChain(ChainConfigDataAccess.Models.ChainConfig)">
+            <summary>
+            Add Chain config 
+            </summary>
+            <param name="chainConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository.GetAllChains">
+            <summary>
+            Get All the chains. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository.UpdateChain(ChainConfigDataAccess.Models.ChainConfig)">
+            <summary>
+            Update Chain
+            </summary>
+            <param name="chainConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContentGeneratorServices.Services.MockServices.MockChainConfigRepository.DeleteChain(System.Int32)">
+            <summary>
+            Delete Chain info for the given ID. 
+            </summary>
+            <param name="chainId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ContentGeneratorServices.SwaggerExamples.ChainConfigExample">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ContentGeneratorServices.SwaggerExamples.ChainConfigExample.GetExamples">
+            <summary>
+            Get examples data. 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
